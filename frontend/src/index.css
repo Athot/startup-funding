@@ -1,0 +1,21 @@
+@import "tailwindcss";
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.btn-secondary {
+  background: #e5e7eb;
+  padding: 10px 20px;
+  border-radius: 8px;
+}

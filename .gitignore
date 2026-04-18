@@ -1,0 +1,48 @@
+ # =========================
+# 🔹 Backend (Node.js)
+# =========================
+backend/node_modules/
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/logs/
+backend/*.log
+backend/dist/
+backend/build/
+
+# =========================
+# 🔹 Frontend (React)
+# =========================
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# =========================
+# 🔹 Common
+# =========================
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temp files
+tmp/
+temp/
+
+# Cache
+.cache/
+
+# Coverage
+coverage/
+
+# Misc
+*.pid
+*.seed
